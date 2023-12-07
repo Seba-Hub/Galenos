@@ -1,0 +1,123 @@
+body {
+    font-family: 'Inria Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2596BE;
+}
+
+nav {
+    display: flex;
+    overflow: hidden;
+    height: 180px;
+    background-color: #307CA4;
+    text-align: center;
+}
+.img_logo{
+    width: 97px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.text_logo{
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+    margin-right: 30px;
+}
+
+.nav_item{
+    font-weight: bold;
+    font-size: 40px;
+    display: inline-block;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0 10px;
+    margin-top: 50px;
+}
+
+.login_sp{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin-top: 60px;
+    margin-left: 5px;
+}
+.login_img{
+    width: 51px;
+    height: 53px;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.login-btn {
+    float: right;
+}
+
+.span_1{
+    color: white;
+    font-size: 80px;
+    margin-left: 100px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.span_2{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 0;
+}
+
+.btn_esp{
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px; 
+    border: #fff;
+    background-color: #fff; 
+    color: #000000; 
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin-left: 200px;
+}
+
+.btn_res{
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px; 
+    border: #fff;
+    background-color: #fff; 
+    color: #000000; 
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 66px;
+    right: 150px;
+}
+
+.img_doc{
+    width:945px ;
+    height:948px;
+    position: fixed;
+    z-index: 5;
+    top: 150px;
+    right: 80px;
+}
+
+.img_vector{
+    position: fixed;
+    z-index: 6;
+    bottom: 0;
+    right: 0;
+}

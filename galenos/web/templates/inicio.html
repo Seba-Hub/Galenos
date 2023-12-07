@@ -1,19 +1,32 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BIENVENIDO</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" /> 
+    <title></title>
+    <link rel="stylesheet" href="{% static 'web/css/styles.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Bienvenido a Galenos</h1>
     <nav>
-        <a href="#inicio">Inicio</a>
-        <a href="#nosotros">Nosotros</a>
-        <a href="#noticias">Noticias</a>
-        <a href="#contacto">Contacto</a>
-        <a class="login-btn" href="#inicio-sesion">Inicio de Sesión</a>
+        <img class="img_logo" src="static/img/logo.png" alt="logo">
+        <p class="text_logo">Centro Médico <br>Galenos</p>
+        <a class="nav_item" href="http://127.0.0.1:8000/">Inicio</a>
+        <a class="nav_item" href="">Nosotros</a>
+        <a class="nav_item" href="">Noticias</a>
+        <a class="nav_item" href="">Contacto</a>
+        <img class="login_img" src="static/img/login_img.png" alt="login">
+        <a class="login_sp" href="">Iniciar <br>Sesión</a>
     </nav> 
+    <button class="btn_res">Reservar Hora</button>
+    <p class="span_1">¡Bienvenidos al<br>Centro Médico<br>Galenos!</p>
+    <p class="span_2">Contamos con los mejores especialistas y<br>estamos enfocados en su bienestar</p>
+    <button class="btn_esp">Ver Especialidades</button>
+    <img class="img_doc" src="static/img/doctores.png" alt="doctores">
+    <img class="img_vector" src="static/img/vector.png" alt="vector_bottom">
 </body>
 </html>
