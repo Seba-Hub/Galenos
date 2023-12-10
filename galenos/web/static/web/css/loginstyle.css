@@ -124,6 +124,7 @@ nav {
     background-color: #DCDCDC;
     margin: 50px;
     margin-top: 60px;
+    text-decoration: none;
 }
 
 .linea{
@@ -131,4 +132,8 @@ nav {
     position: fixed;
     top: 750px;
     right: 780px;
+}
+
+a{
+    text-decoration: none;
 }
