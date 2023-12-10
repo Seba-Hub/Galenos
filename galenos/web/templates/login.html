@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="{% static 'web/css/loginstyle.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <img class="img_logo" src="static/img/logo.png" alt="logo">
+        <p class="text_logo">Centro Médico <br>Galenos</p>
+        <a class="nav_item" href="http://127.0.0.1:8000/">Inicio</a>
+        <a class="nav_item" href="">Nosotros</a>
+        <a class="nav_item" href="">Noticias</a>
+        <a class="nav_item" href="">Contacto</a>
+        <img class="login_img" src="static/img/login_img.png" alt="login">
+        <a class="login_sp" href="http://127.0.0.1:8000/login">Iniciar <br>Sesión</a>
+    </nav> 
+    <button class="btn_res">Reservar Hora</button>
+</body>
+</html>
