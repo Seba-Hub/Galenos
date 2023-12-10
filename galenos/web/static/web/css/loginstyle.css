@@ -2,8 +2,6 @@ body {
     font-family: 'Inria Sans', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url("static/img/fondo.png");
-    background-repeat: repeat;
 }
 
 nav {
@@ -58,37 +56,6 @@ nav {
     float: right;
 }
 
-.span_1{
-    color: white;
-    font-size: 80px;
-    margin-left: 100px;
-    font-weight: bold;
-    margin-bottom: 0;
-}
-.span_2{
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-    margin-left: 100px;
-    margin-top: 0;
-}
-
-.btn_esp{
-    display: inline-block;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 30px; 
-    border: #fff;
-    background-color: #fff; 
-    color: #000000; 
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-    font-size: 30px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-    margin-left: 200px;
-}
-
 .btn_res{
     display: inline-block;
     padding: 10px 20px;
@@ -106,19 +73,62 @@ nav {
     top: 66px;
     right: 150px;
 }
-
-.img_doc{
-    width:945px ;
-    height:948px;
-    position: fixed;
-    z-index: 5;
-    top: 150px;
-    right: 80px;
+ .titulo{
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 100px;
+}
+.contenedor_login{
+    margin-left: 770px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.label_inicio{
+    font-size: 30px;
+    display: block;
+    margin-top: 20px;
+    margin-right: 200px;
+    font-weight: bold;
 }
 
-.img_vector{
+.input{
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid #000; /* Borde negro de 2 píxeles */
+    border-radius: 40px; /* Curvas redondas */
+    outline: none; /* Quita el contorno predeterminado en algunos navegadores */
+    box-sizing: border-box; /* Incluye el padding en el tamaño total */
+    align-items: center;
+    width: 400px;
+    height: 45px;
+    background-color: #E0E0E0;
+    font-size: 20px;
+}
+
+.btn_login{
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px; 
+    border: #fff;
+    color: #000000; 
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin-left: 200px;
+    width: 300px;
+    background-color: #DCDCDC;
+    margin: 50px;
+    margin-top: 60px;
+}
+
+.linea{
+    color: grey;
     position: fixed;
-    z-index: 6;
-    bottom: 0;
-    right: 0;
+    top: 750px;
+    right: 780px;
 }
