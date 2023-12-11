@@ -1,1 +1,46 @@
-<H1>PAGINA DE REGISTRO</H1>
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="{% static 'web/css/loginstyle.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <img class="img_logo" src="static/img/logo.png" alt="logo">
+        <p class="text_logo">Centro Médico <br>Galenos</p>
+        <a class="nav_item" href="http://127.0.0.1:8000/">Inicio</a>
+        <a class="nav_item" href="">Nosotros</a>
+        <a class="nav_item" href="">Noticias</a>
+        <a class="nav_item" href="">Contacto</a>
+        <img class="login_img" src="static/img/login_img.png" alt="login">
+        <a class="login_sp" href="http://127.0.0.1:8000/login">Iniciar <br>Sesión</a>
+    </nav> 
+    <h1 class="titulo">Registro</h1>
+    <div class="container_reg_1">
+        <label class="label_inicio" for="correo">Nombre</label>
+        <input class="input" type="text" id="user" name="user">
+        <label class="label_inicio" for="correo">Teléfono</label>
+        <input class="input" type="text" id="fono" name="telefono">
+        <label class="label_inicio" for="correo">Ciudad</label>
+        <input class="input" type="text" id="city" name="ciudad">
+    </div>
+    <div class="container_reg_2">
+        <label class="label_inicio" for="correo">Correo</label>
+        <input class="input" type="text" id="user" name="user">
+        <label class="label_inicio" for="correo">Contraseña</label>
+        <input class="input" type="password" id="clave" name="clave">
+        <label class="label_inicio" for="correo">Confirmar Contraseña</label>
+        <input class="input" type="password" id="clave" name="clave">
+        <a href="">
+            <button class="btn_login">Registrarme</button>
+        </a>
+    </div>
+</body>
+</html>

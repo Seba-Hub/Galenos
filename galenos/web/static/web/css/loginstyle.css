@@ -137,3 +137,18 @@ nav {
 a{
     text-decoration: none;
 }
+.container_reg_1{
+    margin-left: 200px;
+    float: left;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid #DCDCDC; /* Color del borde derecho */
+}
+.container_reg_2{
+    float: left;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
